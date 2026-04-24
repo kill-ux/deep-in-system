@@ -5,6 +5,9 @@
 `deep-in-system` is a project for learning how to configure a Linux server with the most common services used in production environments, such as SSH, FTP, MySQL, and WordPress. The goal is to understand how to set up, secure, and manage a server from scratch.
 
 ---
+ova file is in https://mega.nz/file/kMUhgYZR#qL8-qNQKS3O8nSYkqlYB3g-87LdPC3mkyS1XD7D9mxc
+
+---
 
 ## 1. Virtual Machine Setup
 
@@ -263,6 +266,30 @@ Runs every day at **00:00 (midnight)**. Cron format: `minute hour day month week
 | 40000-50000 | TCP      | FTP Passive | File transfer data       |
 
 ---
+
+## Credentials
+
+>  For audit purposes only. Never expose credentials in real projects!
+
+| User      | Password                      | Auth Method | Sudo |
+| --------- | ----------------------------- | ----------- | ---- |
+| muboutoub | `    ` (4 spaces)             | password    | yes  |
+| luffy     | SSH key (see id_ed25519 file) | public key  | yes  |
+| zoro      | `    ` (4 spaces)             | password    | no   |
+| nami      | `    ` (4 spaces)             | FTP only    | no   |
+
+### MySQL
+| User   | Password |
+| ------ | -------- |
+| wpuser | password |
+
+### WordPress Admin
+| User  | Password |
+| ----- | -------- |
+| admin | admin    |
+
+### SSH Key for luffy
+Private key is stored at: `~/.ssh/id_ed25519` on host machine
 
 ## Resources
 
