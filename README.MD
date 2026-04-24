@@ -289,7 +289,7 @@ Runs every day at **00:00 (midnight)**. Cron format: `minute hour day month week
 | admin | admin    |
 
 ### SSH Key for luffy
-Private key is stored at: `~/.ssh/id_ed25519` on host machine
+Private key is stored at: `~/.ssh/id_ed25519` on host machine | change his perm to 600
 
 ## Resources
 
