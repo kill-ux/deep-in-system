@@ -344,7 +344,6 @@ File: `/etc/apache2/sites-available/000-default.conf`
 ```apache
 <Directory /var/www/html>
     AllowOverride All
-    Require all granted
 </Directory>
 ```
 
