@@ -470,3 +470,16 @@ Private key stored at `~/.ssh/id_ed25519` on host machine (`chmod 600`).
 4. [WordPress Installation Guide](https://wordpress.org/support/article/how-to-install-wordpress/)
 5. [MySQL Documentation](https://dev.mysql.com/doc/)
 6. [UFW Documentation](https://help.ubuntu.com/community/UFW)
+
+
+
+
+
+
+
+
+
+
+
+
+
