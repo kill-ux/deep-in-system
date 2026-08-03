@@ -1,0 +1,3 @@
+[submodule "deep-in-net"]
+	path = deep-in-net
+	url = https://github.com/kill-ux/deep-in-net
